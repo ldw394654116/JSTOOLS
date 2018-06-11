@@ -1,0 +1,23 @@
+#div {
+  width: 150px;
+  height: 30px;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+  transition: border-color 1s;
+  background-color: white;
+}
+
+#div:hover {
+  border-top-color: yellow;
+  border-bottom-color: yellow;
+  transition: border-color 1s;
+  
+}
+
+#progress {
+  height: 5px;
+  width: 150px;
+}
